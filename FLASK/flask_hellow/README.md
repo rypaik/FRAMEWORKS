@@ -1,5 +1,9 @@
 [SOURCE](https://dev.to/nagatodev/getting-started-with-flask-1kn1)
 
+
+
+>>> flask run
+
 Basic Flask App with preferences to make dev process simpler
 
 
@@ -24,3 +28,7 @@ init.py receives name of flask app from core __name__ -> assigns to app var
 
 init,py assigns core as base app folder
 
+
+in .flaskenv or .env
+FLASK_APP=base.py
+FlASK_ENV=development
