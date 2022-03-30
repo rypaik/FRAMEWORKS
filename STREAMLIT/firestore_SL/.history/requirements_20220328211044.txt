@@ -1,0 +1,8 @@
+streamlit
+google-cloud-firestore
+ scikit-learn>=0.24.2
+   
+    2 streamlit>=0.83.0
+    3 matplotlib>=3.4.2
+    4 seaborn>=0.11.1
+~   5 numpy>=1.20.3
