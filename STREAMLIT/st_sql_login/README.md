@@ -17,8 +17,10 @@ Secondary, I need to secure the login data with python environmental setup.
 
 
 
-## TODO
-
+## TODO:
+- [ ] test states to keep user verified (cookies)
+- [ ] try a different structure - CURRENTLY - single main() with three if's 
+    - [ ] 
 ## CHANGES
 
 
