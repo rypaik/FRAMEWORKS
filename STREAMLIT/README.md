@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -49,7 +50,15 @@ TODO: plugin another sql connector
 -[ ] [streamlit pandas at DuckDuckGo](https://duckduckgo.com/?t=ffab&q=streamlit+pandas&ia=web)
 -[ ] [Creating an Interactive Datetime Filter with Pandas and Streamlit | by M Khorasani | Towards Data Science](https://towardsdatascience.com/creating-an-interactive-datetime-filter-with-pandas-and-streamlit-156e1ea12e90)
 
+=======
+# STREAMLIT LINKS
+>>>>>>> 0b0b7b9 (streamlit sql local #WORKING)
 
 
 
 
+<<<<<<< HEAD
+=======
+# SEABORN AND STREAMLIT
+[Seaborn with STREAMLIT](https://pythonwife.com/seaborn-with-streamlit/#2-getting-data-set)
+>>>>>>> 0b0b7b9 (streamlit sql local #WORKING)
