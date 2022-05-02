@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/jb/GITHUB/RYP_github/FRAMEWORKS/FLASK/google_login_flask/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/a7ae1df2/
+GOOGLE_CLIENT_ID	app.py	/^GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID", None)$/;"	v
+GOOGLE_CLIENT_SECRET	app.py	/^GOOGLE_CLIENT_SECRET = os.environ.get("GOOGLE_CLIENT_SECRET", None)$/;"	v
+GOOGLE_DISCOVERY_URL	app.py	/^GOOGLE_DISCOVERY_URL = ($/;"	v
+User	user.py	/^class User:$/;"	c
+__init__	user.py	/^    def __init__(self):$/;"	m	class:User
+app	app.py	/^app = Flask(__name__)$/;"	v
+callback	app.py	/^def callback():$/;"	f
+client	app.py	/^client = WebApplicationClient(GOOGLE_CLIENT_ID)$/;"	v
+conn	db.py	/^conn = sqlite3.connect('flask_google.sqlite')$/;"	v
+cursor	db.py	/^cursor = conn.cursor()$/;"	v
+get_google_provider_cfg	app.py	/^def get_google_provider_cfg():$/;"	f
+google_provider_cfg	app.py	/^google_provider_cfg = get_google_provider_cfg()$/;"	v
+index	app.py	/^def index():$/;"	f
+init_db_command	db.py	/^def init_db_command():$/;"	f
+load_user	app.py	/^def load_user(user_id):$/;"	f
+login	app.py	/^def login():$/;"	f
+login_manager	app.py	/^login_manager = LoginManager()$/;"	v
+token_endpoint	app.py	/^token_endpoint = google_provider_cfg["token_endpoint"]$/;"	v
