@@ -12,3 +12,14 @@ flask-marshmallow: Object serializer, ideal for parsing and dumping JSON data in
 
 apispec: Required for the integration between marshmallow and flasgger.
 
+
+
+
+Environment Set Up
+
+    Check out the code from flask-api-starter-kit
+    Install requirements pipenv install
+    Start the server with: pipenv run python -m flask run
+    Run tests: pipenv run python -m unittest
+    Visit http://localhost/api for the home api
+    Visit http://localhost/apidocs for the swagger documentation

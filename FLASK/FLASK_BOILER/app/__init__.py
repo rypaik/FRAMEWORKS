@@ -21,7 +21,7 @@ except (AttributeError, NameError):
 def create_app():
     """Create Flask app."""
     config = load_config()
-    print config
+    print(config)
     app = Flask(__name__)
     app.config.from_object(config)
     if not hasattr(app, 'production'):
