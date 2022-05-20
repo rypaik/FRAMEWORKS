@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 from dotenv import dotenv_values
-
+import os 
 # loading environment variables
 load_dotenv()
 
@@ -12,6 +12,6 @@ print(config)
 
 # to get variable
 
-
-# undefined 
-print(f"{MYSQL_HOST}")
+mysql_host=os.environ.get('MYSQL_HOST')
+ 
+print(mysql_host)
