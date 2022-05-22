@@ -13,7 +13,6 @@
 [DB_TYPE]+[DB_CONNECTOR]://[USERNAME]:[PASSWORD]@[HOST]:[PORT]/[DB_NAME]
 '''
 
-
 Database connection URI structure
 
 - **[DB_TYPE]** -  Specifies the kind (dialect) of database we're connecting to. SQLAlchemy can interface with all mainstream flavors of relational databases. Depending on which database you're connecting to, replace [DB_TYPE] with the matching dialect:
