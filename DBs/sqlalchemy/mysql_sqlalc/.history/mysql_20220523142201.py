@@ -19,7 +19,9 @@ engine = create_engine(engine_link, echo=True)
 connection = engine.connect()
 
 
+
 """ Create Table Using SQLAlchemy"""
+from sqlalchemy import Table, Column, Integer, String, MetaData
 meta = MetaData()
 
 students = Table(
@@ -28,12 +30,8 @@ students = Table(
     Column('name', String), 
     Column('lastname', String), 
 )
+
 meta.create_all(engine)
-
-
-
-
-"""   """
 # metadata = db.MetaData()
 # metadata = db.MetaData()
 # print(metadata)
