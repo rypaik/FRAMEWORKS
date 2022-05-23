@@ -28,12 +28,8 @@ students = Table(
     Column('name', String), 
     Column('lastname', String), 
 )
+
 meta.create_all(engine)
-
-
-
-
-"""   """
 # metadata = db.MetaData()
 # metadata = db.MetaData()
 # print(metadata)

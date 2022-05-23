@@ -11,6 +11,7 @@ load_dotenv()
 """Create database connection"""
 # import sqlalchemy as db
 from sqlalchemy import create_engine, Table, Column, Integer, String, Metadata 
+from sqlalchemy import Table, Column, Integer, String, MetaData
 
 engine_link="mysql+pymysql://root:slushieCM52@localhost:3306/testdb"
 # engine_link="mysql+pymysql://root:localhost:3600/database"
@@ -19,7 +20,9 @@ engine = create_engine(engine_link, echo=True)
 connection = engine.connect()
 
 
+
 """ Create Table Using SQLAlchemy"""
+from sqlalchemy import Table, Column, Integer, String, MetaData
 meta = MetaData()
 
 students = Table(
@@ -28,12 +31,8 @@ students = Table(
     Column('name', String), 
     Column('lastname', String), 
 )
+
 meta.create_all(engine)
-
-
-
-
-"""   """
 # metadata = db.MetaData()
 # metadata = db.MetaData()
 # print(metadata)
