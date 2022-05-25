@@ -12,7 +12,7 @@ from sqlalchemy import MetaData
 
 metadata_obj = MetaData()
 
-engine_link="mysql+pymysql://root:slushieCM52@localhost:3306/testdb"
+engine_link="mysql+pymysql://root:slushieCM52@localhost:3306/studentsDB"
 # engine_link="mysql+pymysql://root:localhost:3600/database"
 engine = create_engine(engine_link, echo=True)
 
@@ -20,8 +20,8 @@ engine = create_engine(engine_link, echo=True)
 
 
 
-
-students = Table('student', metadata_obj,
+# TABLE CREATION
+students = Table('students', metadata_obj,
     Column('id', Integer, primary_key = True), 
     Column('name', String(20)), 
     Column('lastname', String(20)), 
